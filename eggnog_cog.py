@@ -3,32 +3,30 @@
 """
 Created on Mon Oct 12 10:47:41 2020
 
-@author: marwa
 """
-
+#use counter which will help to count the COG
 from collections import Counter
 
-#eggnog
+#EGGnog file
 f=open("/Users/marwa/Desktop/M2/TODOOOOO/GEGO/projet/python_script/eggnog_COG.csv", "r")
 
+#put the file in a list 
 LEFICHIER = f.readlines()
+#create 5 list for our 5 genomes
 Mesoplasma_florum = Mesoplasma_chauliocola= Mesoplasma_coleopterae= list()
 Entomoplasma_somnilux = Entomoplasma_melaleucae = list()
 
-#col_interet=[]
 for ligne in LEFICHIER:
+    #it's a csv file so we split using ;
     header = ligne.split(';')
-    #col_interet.append(header[3].strip())
+    #cvs file containt only COG information in each columns we have differents genomes 
     Mesoplasma_florum.append(header[0].strip())
     Mesoplasma_coleopterae.append(header[1].strip())
     Mesoplasma_chauliocola.append(header[2].strip())
     Entomoplasma_melaleucae.append(header[3].strip())
     Entomoplasma_somnilux.append(header[4].strip())
-    #print(type(header[3]))
-    
-#C  	 G  	 E  	 F  	 H  	 I  	 P  	 Q  	 R  	 S 
-# J  	 A  	 K  	 L  	 B  	 D  	 Y  	 V  	 T  	 M  	 N  	 Z  	 W  	 U  	 O  	 X  	
 
+#Counter :return a dictionnary of the number of COG key = COG categorie, values= their number
 print("Mesoplasma_florum")  
 print(Counter(Mesoplasma_florum),'\n\n')
 
