@@ -73,7 +73,13 @@ Final values were calculated through the eggnog_cog.py and cog.py scripts and re
 #### 7.2. Create table for cumulative frequency
 
 ### 8. Mummer
-Align chosen genome against one close and one distant genome
+MUMmer is a system for rapidly aligning large DNA sequences to one another. It can align:
+
+*Whole genomes to other genomes
+*Large genome assemblies to one another
+*Partial (draft) genomes sequences to one another
+
+**Task: ** Align chosen genome against one close and one distant genome
 
 ### 9. Core & Pan-genome
 
@@ -87,3 +93,5 @@ Align chosen genome against one close and one distant genome
 <https://academic.oup.com/nar/article/47/D1/D309/5173662>
 
 **NCBI Resource Coordinators. Database resources of the National Center for Biotechnology Information.** Nucleic Acids Res. <https://pubmed.ncbi.nlm.nih.gov/29140470/>
+
+**MUMmer4 and nucmer4 are described in "MUMmer4: A fast and versatile genome alignment system"** G. Marçais , A.L. Delcher, A.M. Phillippy, R. Coston, S.L. Salzberg, A. Zimin, PLoS computational biology (2018). <https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005944>
