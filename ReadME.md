@@ -72,6 +72,13 @@ Final values were calculated through the eggnog_cog.py and cog.py scripts and re
 
 #### 7.2. Create table for cumulative frequency
 
+### 8. Mummer
+Align chosen genome against one close and one distant genome
+
+### 9. Core & Pan-genome
+
+### 10. Final report 
+
 ### References
 **Fast genome-wide functional annotation through orthology assignment by eggNOG-mapper.** Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho, Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering & Peer Bork.
 <https://academic.oup.com/mbe/article/34/8/2115/3782716>
