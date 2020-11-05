@@ -75,9 +75,9 @@ Final values were calculated through the eggnog_cog.py and cog.py scripts and re
 ### 8. Mummer
 MUMmer is a system for rapidly aligning large DNA sequences to one another. It can align:
 
-*Whole genomes to other genomes
-*Large genome assemblies to one another
-*Partial (draft) genomes sequences to one another
+* Whole genomes to other genomes
+* Large genome assemblies to one another
+* Partial (draft) genomes sequences to one another
 
 **Task: ** Align chosen genome against one close and one distant genome
 
