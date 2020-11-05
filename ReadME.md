@@ -11,32 +11,32 @@ Select four close and distant genomes to a chosen bacterial genome on which comp
 **Requirements:** complete genome, CDS ranging from 500 to 1000 and in the COGs list.  
 
 Mesoplasma florum W37 (CDS: 723).   
-**NCBI link:**    
-**COG link:** 
+**NCBI link:** <https://www.ncbi.nlm.nih.gov/genome/1129?genome_assembly_id=170599>   
+**COG link:** <https://ftp.ncbi.nih.gov/pub/COG/COG2014/static/lists/listMesflo.html?fbclid=IwAR2tomiADkkGKvWh3yXSz5esG87EctMiGbecWbNGTbg5TrNusD3Xm7G-e1A>
 
 #### 3.2. Select two other genomes from the same genre
 **Requirements:** complete genome.  
 
 Mesoplasma chauliocola.     
-**NCBI link:**  
+**NCBI link:** <https://www.ncbi.nlm.nih.gov/genome/17787?genome_assembly_id=328413> 
 
 Mesoplasma coleopterae.     
-**NCBI link:**    
+**NCBI link:** <https://www.ncbi.nlm.nih.gov/genome/65381?genome_assembly_id=355498>   
 
 #### 3.3. Select two other genomes from a neighbor genre
 **Requirements:** complete genome.  
 
 Entomoplasma somnilux.  
-**NCBI link:**    
+**NCBI link:** <https://www.ncbi.nlm.nih.gov/genome/31059?genome_assembly_id=355484>   
 
 Entomoplasma melaleucae.    
-**NCBI link:**    
+**NCBI link:** <https://www.ncbi.nlm.nih.gov/genome/31909?genome_assembly_id=355486>   
 
 ### 4. Download RefSeq FTP repositories
 
 ### 5. Create summary table to compare features
 Check the google doc on the drive.  
-**Link:** 
+**Link:** <https://docs.google.com/document/d/1C0SZWxOWL4sVVi6IUKGRYBFbmO15DUQLDtyrBipb7dE/edit?usp=sharing>
 
 ### 6. eggNOG analysis
 
@@ -47,19 +47,19 @@ We chose the first CDS from Mesoplasma florum (mesoplasma_florum_proteom.faa) an
 
 #### 6.2. eggNOG-mapper-v2 (mandatory for one genome and optional for other genomes)
 Job was submitted for Mesoplasma florum.    
-**Link to results:** 
+**Link to results:** <http://eggnog-mapper.embl.de/job_status?jobname=MM_roi_s3js>
 
 Job was submitted for Mesoplasma chauliocola.    
-**Link to results:**  
+**Link to results:** <http://eggnog-mapper.embl.de/job_status?jobname=MM_eqwo9l8l> 
 
 Job was submitted for Mesoplasma coleopterae.    
-**Link to results:**  
+**Link to results:** <http://eggnog-mapper.embl.de/job_status?jobname=MM_q3od6t4t> 
 
 Job was submitted for Entomoplasma somnilux.    
-**Link to results:**  
+**Link to results:** <http://eggnog-mapper.embl.de/job_status?jobname=MM_vmfu5790> 
 
 Job was submitted for Entomoplasma melaleucae.    
-**Link to results:**  
+**Link to results:** <http://eggnog-mapper.embl.de/job_status?jobname=MM_fftg5l_n> 
 
 #### 6.3. Compare eggNOG and COG functional categories (refer to summary table)
 eggNOG functional categories were stored in eggnog_cog.csv.  
@@ -95,6 +95,6 @@ Write a final report on comparative genome analysis of the five species.
 
 **NCBI Resource Coordinators. Database resources of the National Center for Biotechnology Information.** Nucleic Acids Res. 
 
-**MUMmer4 and nucmer4 are described in "MUMmer4: A fast and versatile genome alignment system"** G. Marçais , A.L. Delcher, A.M. Phillippy, R. Coston, S.L. Salzberg, A. Zimin, PLoS computational biology (2018). 10.1371/journal.pcbi.1005944>
+**MUMmer4 and nucmer4 are described in "MUMmer4: A fast and versatile genome alignment system"** G. Marçais , A.L. Delcher, A.M. Phillippy, R. Coston, S.L. Salzberg, A. Zimin, PLoS computational biology (2018).
 
 Villesen, P (2007), **FaBox: an online fasta sequence toolbox**, 
