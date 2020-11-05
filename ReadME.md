@@ -97,4 +97,4 @@ Write a final report on comparative genome analysis of the five species.
 
 **MUMmer4 and nucmer4 are described in "MUMmer4: A fast and versatile genome alignment system"** G. Marçais , A.L. Delcher, A.M. Phillippy, R. Coston, S.L. Salzberg, A. Zimin, PLoS computational biology (2018).
 
-Villesen, P (2007), **FaBox: an online fasta sequence toolbox**, < http://www.birc.au.dk/software/fabox>
+Villesen, P (2007), **FaBox: an online fasta sequence toolbox**, <http://www.birc.au.dk/software/fabox>
