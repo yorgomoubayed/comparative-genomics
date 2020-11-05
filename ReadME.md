@@ -87,16 +87,15 @@ MUMmer is a system for rapidly aligning large DNA sequences to one another. It c
 Write a final report on comparative genome analysis of the five species.
 
 ### References
-**Fast genome-wide functional annotation through orthology assignment by eggNOG-mapper.** Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho, Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering & Peer Bork.
+* **Fast genome-wide functional annotation through orthology assignment by eggNOG-mapper.** Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho, Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering & Peer Bork.
 
 
-**eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated orthology resource based on 5090 organisms and 2502 viruses.** Jaime Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernández-Plaza, Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas Rattei, Lars J Jensen, Christian von Mering, Peer Bork
+* **eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated orthology resource based on 5090 organisms and 2502 viruses.** Jaime Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernández-Plaza, Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas Rattei, Lars J Jensen, Christian von Mering, Peer Bork
 
+* **NCBI Resource Coordinators. Database resources of the National Center for Biotechnology Information.** Nucleic Acids Res. 
 
-**NCBI Resource Coordinators. Database resources of the National Center for Biotechnology Information.** Nucleic Acids Res. 
+* **MUMmer4 and nucmer4 are described in "MUMmer4: A fast and versatile genome alignment system"** G. Marçais , A.L. Delcher, A.M. Phillippy, R. Coston, S.L. Salzberg, A. Zimin, PLoS computational biology (2018).
 
-**MUMmer4 and nucmer4 are described in "MUMmer4: A fast and versatile genome alignment system"** G. Marçais , A.L. Delcher, A.M. Phillippy, R. Coston, S.L. Salzberg, A. Zimin, PLoS computational biology (2018).
+* Villesen, P (2007), **FaBox: an online fasta sequence toolbox**, <http://www.birc.au.dk/software/fabox>
 
-Villesen, P (2007), **FaBox: an online fasta sequence toolbox**, <http://www.birc.au.dk/software/fabox>
-
-Rice P., Bleasby A and Ison J. **The EMBOSS Users Guide**. Cambridge University Press
+* Rice P., Bleasby A and Ison J. **The EMBOSS Users Guide**. Cambridge University Press
