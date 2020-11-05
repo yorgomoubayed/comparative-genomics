@@ -79,4 +79,4 @@ Final values were calculated through the eggnog_cog.py and cog.py scripts and re
 **eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated orthology resource based on 5090 organisms and 2502 viruses.** Jaime Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernández-Plaza, Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas Rattei, Lars J Jensen, Christian von Mering, Peer Bork
 <https://academic.oup.com/nar/article/47/D1/D309/5173662>
 
-**NCBI Resource Coordinators. Database resources of the National Center for Biotechnology Information.** Nucleic Acids Res.<https://pubmed.ncbi.nlm.nih.gov/29140470/>
+**NCBI Resource Coordinators. Database resources of the National Center for Biotechnology Information.** Nucleic Acids Res. <https://pubmed.ncbi.nlm.nih.gov/29140470/>
