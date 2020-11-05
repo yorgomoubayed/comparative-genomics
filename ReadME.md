@@ -17,19 +17,19 @@ Mesoplasma florum W37 (CDS: 723).
 #### 3.2. Select two other genomes from the same genre
 **Requirements:** complete genome.  
 
-Mesoplasma chauliocola.     
+* Mesoplasma chauliocola.     
 **NCBI link:** <https://www.ncbi.nlm.nih.gov/genome/17787?genome_assembly_id=328413> 
 
-Mesoplasma coleopterae.     
+* Mesoplasma coleopterae.     
 **NCBI link:** <https://www.ncbi.nlm.nih.gov/genome/65381?genome_assembly_id=355498>   
 
 #### 3.3. Select two other genomes from a neighbor genre
 **Requirements:** complete genome.  
 
-Entomoplasma somnilux.  
+* Entomoplasma somnilux.  
 **NCBI link:** <https://www.ncbi.nlm.nih.gov/genome/31059?genome_assembly_id=355484>   
 
-Entomoplasma melaleucae.    
+* Entomoplasma melaleucae.    
 **NCBI link:** <https://www.ncbi.nlm.nih.gov/genome/31909?genome_assembly_id=355486>   
 
 ### 4. Download RefSeq FTP repositories
@@ -46,19 +46,19 @@ eggNOG-mapper is a tool for functional annotation of large sets of sequences bas
 We chose the first CDS from Mesoplasma florum (mesoplasma_florum_proteom.faa) and stored it in mesoplasma_florum_single_protein.faa. To get the results you should resubmit the job because we couldn't recover the results.
 
 #### 6.2. eggNOG-mapper-v2 (mandatory for one genome and optional for other genomes)
-Job was submitted for Mesoplasma florum.    
+* Job was submitted for Mesoplasma florum.    
 **Link to results:** <http://eggnog-mapper.embl.de/job_status?jobname=MM_roi_s3js>
 
-Job was submitted for Mesoplasma chauliocola.    
+* Job was submitted for Mesoplasma chauliocola.    
 **Link to results:** <http://eggnog-mapper.embl.de/job_status?jobname=MM_eqwo9l8l> 
 
-Job was submitted for Mesoplasma coleopterae.    
+* Job was submitted for Mesoplasma coleopterae.    
 **Link to results:** <http://eggnog-mapper.embl.de/job_status?jobname=MM_q3od6t4t> 
 
-Job was submitted for Entomoplasma somnilux.    
+* Job was submitted for Entomoplasma somnilux.    
 **Link to results:** <http://eggnog-mapper.embl.de/job_status?jobname=MM_vmfu5790> 
 
-Job was submitted for Entomoplasma melaleucae.    
+* Job was submitted for Entomoplasma melaleucae.    
 **Link to results:** <http://eggnog-mapper.embl.de/job_status?jobname=MM_fftg5l_n> 
 
 #### 6.3. Compare eggNOG and COG functional categories (refer to summary table)
