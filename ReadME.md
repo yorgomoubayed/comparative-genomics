@@ -79,7 +79,7 @@ MUMmer is a system for rapidly aligning large DNA sequences to one another. It c
 * Large genome assemblies to one another
 * Partial (draft) genomes sequences to one another
 
-**Task: ** Align chosen genome against one close and one distant genome
+**Task:** Align chosen genome against one close and one distant genome
 
 ### 9. Core & Pan-genome
 
