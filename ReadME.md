@@ -94,7 +94,7 @@ conda env create -f mummer.yml
 * **Conda source:** <https://anaconda.org/bioconda/mummer>, <https://anaconda.org/conda-forge/gnuplot>
 * **MUMmer GitHub page (for detailed explanations):** <https://mummer4.github.io/index.html>
 
-##### 8.2. Running mummer
+#### 8.2. Running mummer
 ~~~~
 mummer -mum -b -c mesoplasma_florum_genome.fna entomoplasma_melaleucae_genome.fna > distant_mummer.mums
 ~~~~
@@ -102,7 +102,7 @@ mummer -mum -b -c mesoplasma_florum_genome.fna entomoplasma_melaleucae_genome.fn
 ~~~~
 mummer -mum -b -c mesoplasma_florum_genome.fna mesoplasma_chauliocola_genome.fna > close_mummer.mums
 ~~~~
-##### 8.3. Running mummerplot
+#### 8.3. Running mummerplot
 ~~~~
 mummerplot -x "[0,825824]" -y "[0,85478]" -postscript -p mummer close_mummer.mums
 ~~~~
