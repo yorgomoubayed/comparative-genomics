@@ -82,15 +82,16 @@ MUMmer is a system for rapidly aligning large DNA sequences to one another. It c
 **Task:** Align chosen genome against one close and one distant genome.
 
 #### 8.1. Installing MUMmer
-To **install** the MUMmer package (v3.23) with conda run the following:
+To **install** the MUMmer package (v3.23) and dependencies (gnuplot v5.2.7) with conda run the following:
 ~~~~
 conda install -c bioconda mummer
+conda install -c conda-forge gnuplot
 ~~~~
-* **Source:** <https://anaconda.org/bioconda/mummer>
+* **Conda source:** <https://anaconda.org/bioconda/mummer, https://anaconda.org/conda-forge/gnuplot>
 * **MUMmer manual:** <http://mummer.sourceforge.net/manual/>
 * **MUMmer GitHub page:** <https://mummer4.github.io/index.html>
 
-#### 8.2. Running mummer and mummerplot
+##### 8.2. Running mummer
 ~~~~
 mummer -mum -b -c mesoplasma_florum_genome.fna entomoplasma_melaleucae_genome.fna > distant_mummer.mums
 ~~~~
@@ -98,7 +99,7 @@ mummer -mum -b -c mesoplasma_florum_genome.fna entomoplasma_melaleucae_genome.fn
 ~~~~
 mummer -mum -b -c mesoplasma_florum_genome.fna mesoplasma_chauliocola_genome.fna > close_mummer.mums
 ~~~~
-
+##### 8.3. Running mummerplot
 ~~~~
 mummerplot -x "[0,825824]" -y "[0,85478]" -postscript -p mummer close_mummer.mums
 ~~~~
@@ -106,6 +107,13 @@ mummerplot -x "[0,825824]" -y "[0,85478]" -postscript -p mummer close_mummer.mum
 ~~~~
 mummerplot -x "[0,825824]" -y "[0,845295]" -postscript -p mummer distant_mummer.mums
 ~~~~
+
+The following output files were generated:
+* <filename>.gp
+* <filename>.mums
+* <filename>.fplot
+* <filename>.rplot
+* <filename>.ps (plot figure)
 
 ### 9. Core & Pan-genome
 
