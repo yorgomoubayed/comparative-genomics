@@ -113,7 +113,6 @@ mummerplot -x "[0,825824]" -y "[0,845295]" -postscript -p mummer distant_mummer.
 
 The following output files were generated for both distant and close genomes analysis:
 * mummer.gp
-* mummer.mums
 * mummer.fplot
 * mummer.rplot
 * mummer.ps (plot figure)
