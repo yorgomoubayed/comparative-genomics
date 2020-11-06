@@ -87,6 +87,7 @@ conda install -c bioconda mummer
 ~~~~
 * **Source:** <https://anaconda.org/bioconda/mummer>
 * **MUMmer manual:** <http://mummer.sourceforge.net/manual/>
+* **MUMmer GitHub page:** <https://mummer4.github.io/index.html>
 
 ### 9. Core & Pan-genome
 
