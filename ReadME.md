@@ -85,8 +85,8 @@ To **install** the MUMmer package (v3.23) with conda run one of the following
 ~~~~
 conda install -c bioconda mummer
 ~~~~
-**Source:** <https://anaconda.org/bioconda/mummer>
-**MUMmer manual:** <http://mummer.sourceforge.net/manual/>
+* **Source:** <https://anaconda.org/bioconda/mummer>
+* **MUMmer manual:** <http://mummer.sourceforge.net/manual/>
 
 ### 9. Core & Pan-genome
 
