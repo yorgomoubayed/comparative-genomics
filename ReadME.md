@@ -81,6 +81,11 @@ MUMmer is a system for rapidly aligning large DNA sequences to one another. It c
 
 **Task:** Align chosen genome against one close and one distant genome.
 
+**To install the MUMmer (v3.23) package with conda run one of the following**
+~~~~
+conda install -c bioconda mummer
+~~~~
+
 ### 9. Core & Pan-genome
 
 ### 10. Final report 
