@@ -81,6 +81,7 @@ MUMmer is a system for rapidly aligning large DNA sequences to one another. It c
 
 **Task:** Align chosen genome against one close and one distant genome.
 
+#### 8.1. Installing MUMmer
 To **install** the MUMmer package (v3.23) with conda run the following:
 ~~~~
 conda install -c bioconda mummer
@@ -88,6 +89,23 @@ conda install -c bioconda mummer
 * **Source:** <https://anaconda.org/bioconda/mummer>
 * **MUMmer manual:** <http://mummer.sourceforge.net/manual/>
 * **MUMmer GitHub page:** <https://mummer4.github.io/index.html>
+
+#### 8.2. Running mummer and mummerplot
+~~~~
+mummer -mum -b -c mesoplasma_florum_genome.fna entomoplasma_melaleucae_genome.fna > distant_mummer.mums
+~~~~
+
+~~~~
+mummer -mum -b -c mesoplasma_florum_genome.fna mesoplasma_chauliocola_genome.fna > close_mummer.mums
+~~~~
+
+~~~~
+mummerplot -x "[0,825824]" -y "[0,85478]" -postscript -p mummer close_mummer.mums
+~~~~
+
+~~~~
+mummerplot -x "[0,825824]" -y "[0,845295]" -postscript -p mummer distant_mummer.mums
+~~~~
 
 ### 9. Core & Pan-genome
 
