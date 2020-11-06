@@ -87,7 +87,13 @@ To **install** the MUMmer package (v3.23) and dependencies (gnuplot v5.2.7) with
 conda install -c bioconda mummer
 conda install -c conda-forge gnuplot
 ~~~~
-* **Conda source:** <https://anaconda.org/bioconda/mummer, https://anaconda.org/conda-forge/gnuplot>
+
+Or just setup the following conda environment:
+~~~~
+conda env create -f mummer.yml
+~~~~
+
+* **Conda source:** <https://anaconda.org/bioconda/mummer>, <https://anaconda.org/conda-forge/gnuplot>
 * **MUMmer manual:** <http://mummer.sourceforge.net/manual/>
 * **MUMmer GitHub page:** <https://mummer4.github.io/index.html>
 
@@ -108,12 +114,12 @@ mummerplot -x "[0,825824]" -y "[0,85478]" -postscript -p mummer close_mummer.mum
 mummerplot -x "[0,825824]" -y "[0,845295]" -postscript -p mummer distant_mummer.mums
 ~~~~
 
-The following output files were generated:
-* <filename>.gp
-* <filename>.mums
-* <filename>.fplot
-* <filename>.rplot
-* <filename>.ps (plot figure)
+The following output files were generated (same goes for the close genomes analysis):
+* distant_mummer.gp
+* distant_mummer.mums
+* distant_mummer.fplot
+* distant_mummer.rplot
+* distant_mummer.ps (plot figure)
 
 ### 9. Core & Pan-genome
 
