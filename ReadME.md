@@ -68,20 +68,20 @@ Final values were calculated through the eggnog_cog.py and cog.py scripts and re
 
 ### 7. Genome signatures
 
-#### 7.1. Create a comparativetable with ratio of dinuclotide frequency (Obs / Exp)
-- get the expected dinuclotide frequency  thanks to a random genome <http://www.bioinformatics.nl/cgi-bin/emboss/shuffleseq>
-    -   All random genome are stored in the random folder  
-- calculated the frequency of each genome (obs genome and exp genome) using  <http://bioinfo.nhri.org.tw/cgi-bin/emboss/compseq>
-    - available in  ratio_obsexp.py   
-- get the ratio 
+#### 7.1. Create a table with the ratios of dinucleotides frequencies for each genome (observed/expected)
+* The expected dinuclotides frequencies were determined by generating random genomes through shuffleseq <http://www.bioinformatics.nl/cgi-bin/emboss/shuffleseq>
+    *   All random genomes are stored in the random directory.  
 
-#### 7.2. Create table of the Cumulative frequency of the codon usage / RSCU
-- calculated the frequency of codon usage using <http://bioinfo.nhri.org.tw/cgi-bin/emboss/compseq>
-- get the camulative frequency of the codon usage
-    - available in cumulative_frequence_codon.py 
-- calculated the RSCU
-    - code source rscu.py
-- get the ratio
+* The frequency of each genome (observed genome and expected genome) was calculated using compseq <http://bioinfo.nhri.org.tw/cgi-bin/emboss/compseq>
+
+* The ratio was callculated using the ratio_obsexp.py script.  
+
+#### 7.2. Create table of the cumulative frequency of the codon usage (RSCU) for each genome
+* The frequency of codon usage using was calculatd using compseq <http://bioinfo.nhri.org.tw/cgi-bin/emboss/compseq>
+* The camulative frequency of the codon usage was calculated using the cumulative_frequence_codon.py script
+* The RSCU was calculated using the rscu.py script.
+
+Summary results were reported in dinucleotide_ratio.ods and trinucleotide_cumulative_frequence_rcsu.ods
 
 ### 8. MUMmer: align chosen genome against one close and one distant genome
 MUMmer is a system for rapidly aligning large DNA sequences to one another. It can align:
