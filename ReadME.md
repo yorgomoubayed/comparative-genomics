@@ -69,19 +69,20 @@ Final values were calculated through the eggnog_cog.py and cog.py scripts and re
 ### 7. Genome signatures
 
 #### 7.1. Create a table with the ratios of dinucleotides frequencies for each genome (observed/expected)
-* The expected dinucleotides frequencies were determined by generating random genomes through **shuffleseq** <http://www.bioinformatics.nl/cgi-bin/emboss/shuffleseq> 
-    * All random genomes are stored in the random directory.  
-
-* The frequency of each genome (observed genome and expected genome) was calculated using **compseq** <http://bioinfo.nhri.org.tw/cgi-bin/emboss/compseq>
-
-* The ratio was calculated using the **ratio_obsexp.py** script.  
+* The expected dinucleotides frequencies were determined by:
+    * generating random genomes through **shuffleseq**. All random genomes are stored in the random directory.
+    * **compseq** to calculate it for the observed and expected genomes.
+* The observed/expected ratio was calculated using the **ratio_obsexp.py** script.  
 
 #### 7.2. Create table of the cumulative frequency of the codon usage (RSCU) for each genome
-* The frequency of codon usage using was calculated using **compseq** <http://bioinfo.nhri.org.tw/cgi-bin/emboss/compseq>
-* The cumulative frequency of the codon usage was calculated using the **cumulative_frequence_codon.py** script
+* The frequency of codon usage was calculated using **compseq**.
+* The cumulative frequency of codon usage was calculated using the **cumulative_frequence_codon.py** script.
 * The RSCU was calculated using the **rscu.py** script.
 
 Summary results were reported in **dinucleotide_ratio.ods** and **trinucleotide_cumulative_frequence_rcsu.ods**
+
+**Link to compseq:** <http://bioinfo.nhri.org.tw/cgi-bin/emboss/compseq>
+**Link to shuffleseq:** <http://www.bioinformatics.nl/cgi-bin/emboss/shuffleseq>
 
 ### 8. MUMmer: align chosen genome against one close and one distant genome
 MUMmer is a system for rapidly aligning large DNA sequences to one another. It can align:
