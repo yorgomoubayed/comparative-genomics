@@ -70,7 +70,7 @@ Final values were calculated through the eggnog_cog.py and cog.py scripts and re
 
 #### 7.1. Create a table with the ratios of dinucleotides frequencies for each genome (observed/expected)
 * The dinucleotides frequencies were determined by:
-    * generating random genomes through **shuffleseq**. All random genomes are stored in the random directory.
+    * generating random genomes through **shuffleseq**. All random genomes are stored in the "random genomes" directory.
     * **compseq** for the observed and expected genomes.
 
 * The observed/expected ratio was calculated using the **ratio_obsexp.py** script.  
