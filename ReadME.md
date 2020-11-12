@@ -132,6 +132,13 @@ The following output files were generated for both distant and close genomes ana
 
 ### 9. Core & Pan-genome
 
+#### 9.1. Installing Blast
+To **install** the blast package (v2.10.1) with conda run the following:
+~~~~
+conda install -c bioconda blast
+~~~~
+* **Conda source:** <https://anaconda.org/bioconda/blast>
+
 ### 10. Final report 
 Write a final report on comparative genome analysis of the five species.
 
