@@ -144,7 +144,7 @@ conda install -c bioconda blast
 #### 9.2. OrthoVenn2
 OrthoVenn is a web platform for comparison and annotation of orthologous gene clusters among multiple species.
 
-Job was submitted using the 5 species' proteoms files as input.
+Job was submitted using the 5 species' proteoms files as input. 
 **Link to results:** <https://orthovenn2.bioinfotoolkits.net/task/result/00a4e2ed85b530f9b9de2af5b4b1e2b0>
 
 ### 10. Final report 
