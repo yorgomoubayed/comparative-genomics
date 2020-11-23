@@ -140,7 +140,7 @@ conda install -c bioconda blast
 * **Conda source:** <https://anaconda.org/bioconda/blast>
 
 ### 10. Final report 
-Write a final report on comparative genome analysis of the five species.
+Write a 20-25 pages report on comparative genome analysis of the five species.
 
 ### References
 * **Fast genome-wide functional annotation through orthology assignment by eggNOG-mapper.** Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho, Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering & Peer Bork.
