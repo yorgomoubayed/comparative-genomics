@@ -147,7 +147,7 @@ conda env create blastenv
 conda env activate blastenv
 ~~~~
 
-#### 9.1.2. BBH and local blast
+##### 9.1.2. BBH and local blast
 Perform BBH for each pair of genomes (AA: Criteria 30% identity / 80% coverage)
 
 * Build a genome databse with only one genome (here we used florum_protein.faa > florumDB):
@@ -168,7 +168,7 @@ awk '$3>=30' QmesochauDBflorum >> final_result.txt
 ##### 9.2. Calculate ANI, AF, AAI
 Average Nucleotide Identity (ANI) and Alignment Fraction (AF) are calculated through the [IMG website](https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=ANI&page=pairwise)
 
-AAI is similar to ANI. In fact it's the measure of global protein similarity between the set of gene products (protein) between the genomes. 
+AAI is similar to ANI. It's the measure of global protein similarity between the set of gene products (protein) between the genomes. 
 
 #### 9.3. OrthoVenn2
 OrthoVenn is a web platform for comparison and annotation of orthologous gene clusters among multiple species.
