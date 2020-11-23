@@ -1,0 +1,20 @@
+Genome1 ID	Genome1 Name	Genome2 ID	Genome2 Name	ANI1->2	ANI2->1	AF1->2	AF2->1	Precomputed ?
+2558309067	Mesoplasma florum W37	2802429270	Mesoplasma chauliocola CHPA-2	83.0889	83.0879	72.772	71.053	No
+2558309067	Mesoplasma florum W37	2802429280	Entomoplasma melaleucae M1	84.4280	84.4304	65.621	69.441	No
+2558309067	Mesoplasma florum W37	2802429348	Entomoplasma somnilux PYAN-1	73.1247	73.1238	31.014	29.614	No
+2775506891	Mesoplasma coleopterae BARC 779	2558309067	Mesoplasma florum W37	88.4857	88.4812	82.286	79.502	Yes
+2775506891	Mesoplasma coleopterae BARC 779	2802429270	Mesoplasma chauliocola CHPA-2	82.9774	82.9795	72.907	68.841	No
+2775506891	Mesoplasma coleopterae BARC 779	2802429280	Entomoplasma melaleucae M1	84.7953	84.7961	66.441	68.037	No
+2775506891	Mesoplasma coleopterae BARC 779	2802429348	Entomoplasma somnilux PYAN-1	73.0165	73.0153	32.440	29.975	No
+2802429270	Mesoplasma chauliocola CHPA-2	2558309067	Mesoplasma florum W37	83.0879	83.0889	71.053	72.772	No
+2802429270	Mesoplasma chauliocola CHPA-2	2775506891	Mesoplasma coleopterae BARC 779	82.9795	82.9774	68.841	72.907	No
+2802429270	Mesoplasma chauliocola CHPA-2	2802429280	Entomoplasma melaleucae M1	83.5856	83.5863	60.233	65.289	No
+2802429270	Mesoplasma chauliocola CHPA-2	2802429348	Entomoplasma somnilux PYAN-1	72.6144	72.6124	32.510	31.797	No
+2802429280	Entomoplasma melaleucae M1	2558309067	Mesoplasma florum W37	84.4304	84.4280	69.441	65.621	No
+2802429280	Entomoplasma melaleucae M1	2775506891	Mesoplasma coleopterae BARC 779	84.7961	84.7953	68.037	66.441	No
+2802429280	Entomoplasma melaleucae M1	2802429270	Mesoplasma chauliocola CHPA-2	83.5863	83.5856	65.289	60.233	No
+2802429280	Entomoplasma melaleucae M1	2802429348	Entomoplasma somnilux PYAN-1	73.0313	73.0289	30.297	27.344	No
+2802429348	Entomoplasma somnilux PYAN-1	2558309067	Mesoplasma florum W37	73.1238	73.1247	29.614	31.014	No
+2802429348	Entomoplasma somnilux PYAN-1	2775506891	Mesoplasma coleopterae BARC 779	73.0153	73.0165	29.975	32.440	No
+2802429348	Entomoplasma somnilux PYAN-1	2802429270	Mesoplasma chauliocola CHPA-2	72.6124	72.6144	31.797	32.510	No
+2802429348	Entomoplasma somnilux PYAN-1	2802429280	Entomoplasma melaleucae M1	73.0289	73.0313	27.344	30.297	No
