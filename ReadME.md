@@ -165,7 +165,7 @@ blastp -query mesoplasma_chauliocola.faa -db florumDB -out QmesochauDBflorum -qc
 awk '$3>=30' QmesochauDBflorum >> final_result.txt
 ~~~~
 
-##### 9.2. Calculate ANI, AF, AAI
+#### 9.2. Calculate ANI, AF, AAI
 Average Nucleotide Identity (ANI) and Alignment Fraction (AF) are calculated through the [IMG website](https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=ANI&page=pairwise)
 
 AAI is similar to ANI. It's the measure of global protein similarity between the set of gene products (protein) between the genomes. 
