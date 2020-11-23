@@ -132,53 +132,45 @@ The following output files were generated for both distant and close genomes ana
 
 ### 9. Core & Pan-genome
 
-#### 9.1. Bidirectional Best Hits (BBH) and calculate ANI, AF , AAI
+#### 9.1. Bidirectional Best Hits (BBH) and calculate ANI, AF, AAI
 
-Installing Blast :
+##### 9.1.1. Installing blast
 To **install** the blast package (v2.10.1) with conda run the following:
 ~~~~
 conda install -c bioconda blast
 ~~~~
 * **Conda source:** <https://anaconda.org/bioconda/blast>
 
-
-Use a conda environment (facultatif):
+Or run the following to create and activate the custom conda environment:
 ~~~~
 conda env create blastenv
+conda env activate blastenv
 ~~~~
 
-activate the environment
-~~~~
-conda env create blastenv
-~~~~
+#### 9.1.2. BBH and local blast
+Perform BBH for each pair of genomes (AA: Criteria 30% identity / 80% coverage)
 
-##### BBH and local BLAST
-Performs BBH from each pair of genomes (AA: Criteria 30% identity / 80% coverage)
-
-```
+Build a genome databse with only one genome (here we used florum_protein.faa > florumDB):
+~~~~
 makeblastdb -in florum_protein.faa -out florumDB -dbtype prot
+~~~~
 
+Run blastp for proteins (i.e. for mesoplasma_chauliocola). 80% coverage is determined by -qcov_hsp_perc 80:
+~~~~
 blastp -query mesoplasma_chauliocola.faa -db florumDB -out QmesochauDBflorum -qcov_hsp_perc 80
-
-awk '$3>=30' QmesochauDBflorum >> final_result.txt
-```
-
-Build a bank of genome with only one genome here it's florum_protein.faa named florumDB
-
-Lunch BLAST for proteins "blastp" we use mesoplasma_chauliocola and our genome bank florumDB the output file is name QmesochauDBflorum
-
-80% coverage is done by the parameter -qcov_hsp_perc 80
+~~~~
 
 To get to 30% identity we use the command awk and filter the third columns (which is the identity) then put the result into a new file named final_result.
+~~~~
+awk '$3>=30' QmesochauDBflorum >> final_result.txt
+~~~~
 
-##### ANI, AF , AAI
-Average Nucleotide Identity (ANI) and  Alignment Fraction (AF) is calculated thank to [IMG website](https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=ANI&page=pairwise)
+##### 9.2. Calculate ANI, AF, AAI
+Average Nucleotide Identity (ANI) and Alignment Fraction (AF) are calculated through the [IMG website](https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=ANI&page=pairwise)
 
 AAI is similar to ANI. In fact it's the measure of global protein similarity between the set of gene products (protein) between the genomes. 
 
-
-
-#### 9.2. OrthoVenn2
+#### 9.3. OrthoVenn2
 OrthoVenn is a web platform for comparison and annotation of orthologous gene clusters among multiple species.
 
 Job was submitted using the 5 species' proteoms files as input.    
@@ -201,3 +193,5 @@ Write a 20-25 pages report on comparative genome analysis of the five species.
 * Rice P., Bleasby A and Ison J. **The EMBOSS Users Guide**. Cambridge University Press
 
 * Xu L, Dong Z, Fang L, Luo Y, Wei Z, Guo H, Zhang G, Gu YQ, Coleman-Derr D, Xia Q, Wang Y. **OrthoVenn2: a web server for whole-genome comparison and annotation of orthologous clusters across multiple species**. Nucleic Acids Res. 2019 Jul.
+
+* Chen IA, Chu K, Palaniappan K, Pillay M, Ratner A, Huang J, Huntemann M, Varghese N, White JR, Seshadri R, Smirnova T, Kirton E, Jungbluth SP, Woyke T, Eloe-Fadrosh EA, Ivanova NN, Kyrpides NC. **IMG/M v.5.0: an integrated data management and comparative analysis system for microbial genomes and microbiomes**. Nucleic Acids Res. 2019 Jan.
