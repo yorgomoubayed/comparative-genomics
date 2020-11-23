@@ -132,12 +132,20 @@ The following output files were generated for both distant and close genomes ana
 
 ### 9. Core & Pan-genome
 
-#### 9.1. Installing Blast
+#### 9.1. Bidirectional Best Hits (BBH)
+
+Installing Blast (draft)
 To **install** the blast package (v2.10.1) with conda run the following:
 ~~~~
 conda install -c bioconda blast
 ~~~~
 * **Conda source:** <https://anaconda.org/bioconda/blast>
+
+#### 9.2. OrthoVenn2
+OrthoVenn is a web platform for comparison and annotation of orthologous gene clusters among multiple species.
+
+Job was submitted using the 5 species' proteoms files as input.
+**Link to results:** <https://orthovenn2.bioinfotoolkits.net/task/result/00a4e2ed85b530f9b9de2af5b4b1e2b0>
 
 ### 10. Final report 
 Write a 20-25 pages report on comparative genome analysis of the five species.
@@ -154,3 +162,5 @@ Write a 20-25 pages report on comparative genome analysis of the five species.
 * Villesen, P (2007), **FaBox: an online fasta sequence toolbox**, <http://www.birc.au.dk/software/fabox>
 
 * Rice P., Bleasby A and Ison J. **The EMBOSS Users Guide**. Cambridge University Press
+
+* Xu L, Dong Z, Fang L, Luo Y, Wei Z, Guo H, Zhang G, Gu YQ, Coleman-Derr D, Xia Q, Wang Y. **OrthoVenn2: a web server for whole-genome comparison and annotation of orthologous clusters across multiple species**. Nucleic Acids Res. 2019 Jul. doi: 10.1093/nar/gkz333. PMID: 31053848; PMCID: PMC6602458.
