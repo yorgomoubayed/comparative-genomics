@@ -141,6 +141,34 @@ conda install -c bioconda blast
 ~~~~
 * **Conda source:** <https://anaconda.org/bioconda/blast>
 
+#### 9.1. BBH and calculate ANI, AF , AAI
+
+##### BBH and local BLAST
+Performs BBH from each pair of genomes (AA: Criteria 30% identity / 80% coverage)
+
+```
+makeblastdb -in florum_protein.faa -out florumDB -dbtype prot
+
+blastp -query mesoplasma_chauliocola.faa -db florumDB -out QmesochauDBflorum -qcov_hsp_perc 80
+
+awk '$3>=30' QmesochauDBflorum >> final_result.txt
+```
+
+Build a bank of genome with only one genome here it's florum_protein.faa named florumDB
+
+Lunch BLAST for proteins "blastp" we use mesoplasma_chauliocola and our genome bank florumDB the output file is name QmesochauDBflorum
+
+80% coverage is done by the parameter -qcov_hsp_perc 80
+
+To get to 30% identity we use the command awk and filter the third columns (which is the identity) then put the result into a new file named final_result.
+
+##### ANI, AF , AAI
+Average Nucleotide Identity (ANI) and  Alignment Fraction (AF) is calculated thank to [IMG website](https://img.jgi.doe.gov/cgi-bin/m/main.cgi?section=ANI&page=pairwise)
+
+AAI is similar to ANI. In fact it's the measure of global protein similarity between the set of gene products (protein) between the genomes. 
+
+
+
 #### 9.2. OrthoVenn2
 OrthoVenn is a web platform for comparison and annotation of orthologous gene clusters among multiple species.
 
