@@ -132,16 +132,25 @@ The following output files were generated for both distant and close genomes ana
 
 ### 9. Core & Pan-genome
 
-#### 9.1. Bidirectional Best Hits (BBH)
+#### 9.1. Bidirectional Best Hits (BBH) and calculate ANI, AF , AAI
 
-Installing Blast (draft)
+Installing Blast :
 To **install** the blast package (v2.10.1) with conda run the following:
 ~~~~
 conda install -c bioconda blast
 ~~~~
 * **Conda source:** <https://anaconda.org/bioconda/blast>
 
-#### 9.1. BBH and calculate ANI, AF , AAI
+
+Use a conda environment (facultatif):
+~~~~
+conda env create blastenv
+~~~~
+
+activate the environment
+~~~~
+conda env create blastenv
+~~~~
 
 ##### BBH and local BLAST
 Performs BBH from each pair of genomes (AA: Criteria 30% identity / 80% coverage)
