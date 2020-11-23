@@ -150,17 +150,17 @@ conda env activate blastenv
 #### 9.1.2. BBH and local blast
 Perform BBH for each pair of genomes (AA: Criteria 30% identity / 80% coverage)
 
-Build a genome databse with only one genome (here we used florum_protein.faa > florumDB):
+* Build a genome databse with only one genome (here we used florum_protein.faa > florumDB):
 ~~~~
 makeblastdb -in florum_protein.faa -out florumDB -dbtype prot
 ~~~~
 
-Run blastp for proteins (i.e. for mesoplasma_chauliocola). 80% coverage is determined by -qcov_hsp_perc 80:
+* Run blastp for proteins (i.e. for mesoplasma_chauliocola). 80% coverage is determined by -qcov_hsp_perc 80:
 ~~~~
 blastp -query mesoplasma_chauliocola.faa -db florumDB -out QmesochauDBflorum -qcov_hsp_perc 80
 ~~~~
 
-To get to 30% identity we use the command awk and filter the third columns (which is the identity) then put the result into a new file named final_result.
+* To get to 30% identity we use the command awk and filter the third columns (which is the identity) then put the result into a new file named final_result.
 ~~~~
 awk '$3>=30' QmesochauDBflorum >> final_result.txt
 ~~~~
