@@ -163,4 +163,4 @@ Write a 20-25 pages report on comparative genome analysis of the five species.
 
 * Rice P., Bleasby A and Ison J. **The EMBOSS Users Guide**. Cambridge University Press
 
-* Xu L, Dong Z, Fang L, Luo Y, Wei Z, Guo H, Zhang G, Gu YQ, Coleman-Derr D, Xia Q, Wang Y. **OrthoVenn2: a web server for whole-genome comparison and annotation of orthologous clusters across multiple species**. Nucleic Acids Res. 2019 Jul. doi: 10.1093/nar/gkz333. PMID: 31053848; PMCID: PMC6602458.
+* Xu L, Dong Z, Fang L, Luo Y, Wei Z, Guo H, Zhang G, Gu YQ, Coleman-Derr D, Xia Q, Wang Y. **OrthoVenn2: a web server for whole-genome comparison and annotation of orthologous clusters across multiple species**. Nucleic Acids Res. 2019 Jul.
