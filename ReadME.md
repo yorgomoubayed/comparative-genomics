@@ -82,7 +82,7 @@ Final values were calculated through the eggnog_cog.py and cog.py scripts and re
 
 Summary results were reported in **dinucleotide_ratio.ods** and **trinucleotide_cumulative_frequence_rcsu.ods**
 
-* **Link to compseq:** <http://bioinfo.nhri.org.tw/cgi-bin/emboss/compseq>    
+* **Link to compseq:** <https://www.bioinformatics.nl/cgi-bin/emboss/compseq>    
 * **Link to shuffleseq:** <http://www.bioinformatics.nl/cgi-bin/emboss/shuffleseq>
 
 ### 8. MUMmer: align chosen genome against one close and one distant genome
