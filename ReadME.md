@@ -176,9 +176,6 @@ OrthoVenn is a web platform for comparison and annotation of orthologous gene cl
 Job was submitted using the 5 species' proteoms files as input.    
 **Link to results:** <https://orthovenn2.bioinfotoolkits.net/task/result/00a4e2ed85b530f9b9de2af5b4b1e2b0>
 
-### 10. Final report 
-Write a 20-25 pages report on comparative genome analysis of the five species.
-
 ### References
 * **Fast genome-wide functional annotation through orthology assignment by eggNOG-mapper.** Jaime Huerta-Cepas, Kristoffer Forslund, Luis Pedro Coelho, Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering & Peer Bork.
 
